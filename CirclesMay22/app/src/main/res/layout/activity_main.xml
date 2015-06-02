@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1" android:orientation="vertical">
+            <Button
+                android:id="@+id/btnFamily"
+                android:text="Family"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#9F20">
+            </Button>
+
+            <Button
+                android:id="@+id/btnNeighbors"
+                android:text="Neighbors"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="#890"
+                android:layout_width="fill_parent">
+            </Button>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="1">
+            <Button
+                android:id="@+id/btnFriends"
+                android:text="Friends"
+                android:layout_weight="1"
+                android:background="#7f90"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+            </Button>
+
+            <Button
+                android:id="@+id/btnSocial"
+                android:text="Society"
+                android:layout_weight="1"
+                android:background="#004060"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+            </Button>
+    </LinearLayout>
+</LinearLayout>
